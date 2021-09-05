@@ -5,7 +5,7 @@ Feature: This Feature is for Account Opening
     Given the user launches to huntington page
 
     Scenario: Validate the Asterisk Free Checking account is visible
-      When the user clicks on Open an Account
+      When the user clicks on open an Account
       And the user clicks on Apply for Asterisk-Free Checking
       Then the user validates the Asterisk-Free Checking is display on the page
 
