@@ -1,6 +1,6 @@
 Feature: This feature for Login
 
-  @login
+  @login @smoke @regression
 Scenario: Validate the login module
   Given the user launches to huntington page
   When the user click on login button

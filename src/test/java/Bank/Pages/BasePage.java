@@ -19,6 +19,7 @@ public abstract class BasePage{
         }
     public void navigateToHomePage(){
         Driver.getDriver().get("https://huntington.com");
+        //
     }
 
     /*public void navigateTo(String tab, String module) {
